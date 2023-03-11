@@ -22,7 +22,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: mkfard/v2ray
+          images: transcf/v2ray
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
